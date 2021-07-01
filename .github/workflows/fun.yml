@@ -1,0 +1,10 @@
+name: Fun Workflow
+on:
+  push:
+  pull_request:
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Step
+        run: echo HELLO!
